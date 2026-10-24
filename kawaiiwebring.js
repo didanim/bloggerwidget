@@ -200,7 +200,8 @@
             </table>
           </div>
           <div class="` + widgetId + `-credit">
-            <a href="https://writewhim.blogspot.com" target="_blank" rel="nofollow noopener noreferrer">Add your blog</a> <span class="iconify" data-icon="lucide:heart" style="color:` + accentColor + `;"></span>
+            <a href="https://writewhim.blogspot.com/2026/06/what-is-webring.html" target="_blank" rel="nofollow noopener noreferrer">Add your blog <span class="iconify" data-icon="lucide:heart" style="color:` + accentColor + `;"></span>
+            </a>
           </div>
         </div>
 
