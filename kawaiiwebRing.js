@@ -12,7 +12,6 @@
     return scripts[scripts.length - 1];
   })();
 
-  // Extract attributes safely (defaults to empty string if not provided)
   var name = currentScript.getAttribute('name') || 'Anonymous';
   var pronouns = currentScript.getAttribute('pronouns') || '';
   var status = currentScript.getAttribute('status') || '';
@@ -24,7 +23,6 @@
   var likes = currentScript.getAttribute('likes') || '';
   var dislikes = currentScript.getAttribute('dislikes') || '';
   
-  // Font & Style attributes
   var textFont = currentScript.getAttribute('textFont') || "'Palatino Linotype', 'Book Antiqua', Palatino, serif";
   var textSize = currentScript.getAttribute('textSize') || '13';
   var cardColor = currentScript.getAttribute('cardColor') || '#fff0f5';
